@@ -1,0 +1,32 @@
+{
+  "name": "draw-arch-agent",
+  "version": "1.0.0",
+  "description": "An agent that generates Excalidraw-style architecture diagrams from natural language descriptions",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "cli": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "excalidraw",
+    "architecture",
+    "diagram",
+    "ai",
+    "llm"
+  ],
+  "author": "Cascade AI",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/langgraph": "^0.4.1",
+    "@langchain/openai": "^0.6.3",
+    "canvas": "^2.11.2",
+    "dotenv": "^16.6.1",
+    "excalidraw-to-svg": "^3.1.0",
+    "openai": "^4.0.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
