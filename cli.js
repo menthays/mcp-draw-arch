@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-require('dotenv').config({ override: true });
+require('dotenv').config({ override: true, path: ['.env.local', '.env'] });
 const { convertToSvg } = require('./lib/core/svg');
 const { 
   generateArchitectureDiagram,
